@@ -72,61 +72,61 @@ And chatgpt said:
 
 Certainly! Here are ten interesting grep command lines that you can use to search for strings and accomplish various tasks:
 
-1. Search for a specific string in a file:
+- Search for a specific string in a file:
 
 ```
 grep "search_string" filename
 ```
 
-2. Search for a string case-insensitively:
+- Search for a string case-insensitively:
 
 ```
 grep -i "search_string" filename
 ```
 
-3. Count the number of occurrences of a string in a file:
+- Count the number of occurrences of a string in a file:
 
 ```
 grep -c "search_string" filename
 ```
 
-4. Display lines containing the string and the surrounding lines:
+- Display lines containing the string and the surrounding lines:
 
 ```
 grep -A 2 -B 2 "search_string" filename
 ```
 
-5. Search for multiple strings using logical OR:
+- Search for multiple strings using logical OR:
 
 ```
 grep -e "string1" -e "string2" filename
 ```
 
-6. Search for lines that match a specific pattern using regular expressions:
+- Search for lines that match a specific pattern using regular expressions:
 
 ```
 grep "pattern.*" filename
 ```
 
-7. Search for files containing a specific string in a directory and its subdirectories:
+- Search for files containing a specific string in a directory and its subdirectories:
 
 ```
 grep -r "search_string" directory
 ```
 
-8. Search for files that do not contain a specific string in a directory and its subdirectories:
+- Search for files that do not contain a specific string in a directory and its subdirectories:
 
 ```
 grep -rL "search_string" directory
 ```
 
-9. Print only the matching part of the line using -o option:
+- Print only the matching part of the line using -o option:
 
 ```
 grep -o "pattern" filename
 ```
 
-10. Search for lines that do not match a specific pattern:
+- Search for lines that do not match a specific pattern:
 
 ```
 grep -v "pattern" filename
